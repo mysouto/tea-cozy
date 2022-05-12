@@ -1,0 +1,135 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+}
+
+.main-container {
+  margin: 20px;
+  opacity: 0.9;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  width: 100%;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+a {
+  color: seashell;
+  text-decoration: none;
+}
+
+.logo {
+  height: 50px;
+  width: 10px;
+  padding-left: 10px;
+}
+
+.spacer {
+  display: flex;
+  flex: 1;
+}
+
+/* mission */
+
+.mission-container {
+  height: 700px;
+  background-image: url("../images/img-mission-background.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mission-description {
+  background-color: black;
+  text-align: center;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+/* teas */
+.featured-container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  /* align-content: center; */
+}
+
+.tea-type {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+.teas {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.teas img {
+  height: 200px;
+  width: 300px;
+}
+
+/* locations */
+.locations-container {
+  height: 500px;
+  background-image: url("../images/img-locations-background.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.locations {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.downtown,
+.east-bayside,
+.oakdale {
+  width: 300px;
+  height: auto;
+  display: flex;
+  background-color: black;
+  align-items: center;
+  flex-direction: column;
+}
+
+.description {
+  text-align: center;
+}
+
+/* contact */
+.contact-container {
+  display: flex;
+  height: 200px;
+  justify-content: center;
+}
+
+/* footer */
+.footer-container {
+  display: flex;
+  text-align: left;
+}
